@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+
+* {
+    font-family: 'arial', Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*----- INÍCIO DO CABEÇALHO -----*/
+
+header {
+    background-color: #00c7ce;
+    padding: 3em;
+}
+
+header h1 {
+    text-align: center;
+    font-family: "Passion One", arial, sans-serif;
+    font-variant: small-caps;
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px 2px #00767ada;
+}
+
+/*----- FIM DO CABEÇALHO -----*/
+
+.container {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: 100px auto;
+    display: flex;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bolder;
+    font-variant: small-caps;
+    padding: 15px 5px 5px 5px;
+    color: #3b3b3b;
+}
+
+.container P {
+    padding: 20px;
+    text-align: center;
+    text-align: justify;
+    line-height: 1em;
+    color: rgb(31, 31, 31);
+}
+
+
+div #cat, #dog, #bird, #lontra, #rabit, #hamster {
+    width: 200px;
+    height: 400px;
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+    background-color: #00767ada;
+    color: white;
+    padding: 10px;
+    font-size: 0.7em;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    color: #01888d;
+}
