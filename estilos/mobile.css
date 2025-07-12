@@ -15,14 +15,14 @@
 
 header {
     background-color: #00c7ce;
-    padding: 3em;
+    padding: 2.5em;
 }
 
 header h1 {
     text-align: center;
     font-family: "Passion One", arial, sans-serif;
     font-variant: small-caps;
-    font-size: 3em;
+    font-size: 2.5em;
     color: white;
     text-shadow: 2px 2px 2px #00767ada;
 }
@@ -31,7 +31,7 @@ header h1 {
 
 .container {
     width: 400px;
-    height: 400px;
+    height: 500px;
     background-color: rgb(255, 255, 255);
     margin: 100px auto;
     display: flex;
@@ -55,9 +55,9 @@ header h1 {
 }
 
 
-div #cat, #dog, #bird, #lontra, #rabit, #hamster {
+div #cat, #dog, #bird, #lontra, #rabit, #hamster, #elefante, #gazela, #hipopotamo, #girafa, #zebra, #leao {
     width: 200px;
-    height: 400px;
+    height: 500px;
 }
 
 img {
