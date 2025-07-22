@@ -27,6 +27,36 @@ header h1 {
     text-shadow: 2px 2px 2px #00767ada;
 }
 
+span#hbmenu {
+    padding-top: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px #00767a83;
+    cursor: pointer;
+}
+
+menu ul li {
+    list-style-type: none;
+    text-align: left;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00abb1;
+    margin-top: 5px;
+    }
+
+menu ul li a {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 500;
+    
+}
+
+menu ul li:hover {
+    color: #ffffff;
+    background-color: #004a4d;
+    
+}
+
 /*----- FIM DO CABEÇALHO -----*/
 
 .container {
